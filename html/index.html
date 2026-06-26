@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovação Industrial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <p>AÇO<span>VERDE</span></p>
+            </div>
+            <div class="patrocinio">
+                <p> Apoio Oficial <strong>CBMM</strong> & <strong>Acelormittal</strong> & <strong>Proz Educação</strong></p> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container hero">
+            <div>
+                <h1>O aço do futuro e a <span>tecnologia ecológica</span> caminham juntos.</h1>
+                <p>A união entre a produção moderna de materiais e a sustentabilidade transforma a nossa infraestrutura. Conheça as tecnologias aplicadas para descarbonizar o planeta.</p>
+                <div>
+                    <a href="#simulador" class="btn btn-primary">Testar Simulador</a>
+                    <a href="#pilares" class="btn btn-secondary">Explorar Tecnologias</a> 
+                </div>
+            </div>
+            <img class="img1" src="https://ibram.org.br/wp-content/uploads/2024/07/O-TF18L-da-ArcelorMittal-e-um-aco-desenvolvido-para-o-processo-de-trefilacao-fina-Credito-ArcelorMittal.jpg" alt="aço na indústria">
+        </section>
+
+        <section class="pillars-section" id="pilares">
+
+            <div class="container">
+
+                <div class="section-header">
+                    <h2>Nossos Pilares Tecnológicos</h2>
+                    <p>Como a pesquisa inovadora atua na prática para gerar uma cadeia industrial neutra em carbono.</p>
+                </div>
+                <!-- card 1 -->
+                <div class="pillars-grid">
+                   <div class="pillar-card">
+                        <div class="card-img">
+                            <img src="" alt="Operação limpa em fábrica de aço">
+                        </div>
+                        <div class="card-body">
+                           
+                            <h3>Aço Inteligente & Reciclagem</h3>
+                            <p>Economia circular aplicada à siderurgia moderna. O aço da ArcelorMittal é infinitamente reutilizado, diminuindo a necessidade de novas extrações e reduzindo as emissões globais de CO₂.</p>
+                        </div>
+                    </div>
+                <!-- card 2 -->
+                    <div class="pillar-card">
+                        <div class="card-img">
+                            <img src="" alt="Aplicações de ligas metálicas especiais">
+                        </div>
+                        <div class="card-body">
+                            <h3>Nióbio e Ultra-Eficiência</h3>
+                            <p>A tecnologia inovadora do nióbio da CBMM cria ligas metálicas muito mais leves, resistentes e duráveis. Isso permite construir veículos mais leves e eficientes, gastando menos energia.</p>
+                        </div>
+                    </div>
+                <!-- card 3 -->
+                    <div class="pillar-card">
+                        <div class="card-img">
+                            <img src="http://googleusercontent.com/image_collection/image_retrieval/12705173529761994582_0" alt="Área fabril com reflorestamento">
+                        </div>
+                        <div class="card-body">
+                           
+                            <h3>Descarbonização Total</h3>
+                            <p>A meta é o carbono zero. Com fontes de energia 100% renováveis, uso do hidrogênio verde na produção e forte trabalho de reflorestamento das matas nativas próximas às operações industriais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container simulator-section" id="simulador">
+            <div class="simulator-box">
+                <div class="simulator-controls">
+                    <h3>Calculadora de Impacto Verde</h3>
+                    <p>Escolha uma das frentes abaixo para simular o resultado imediato das ações sustentáveis aplicadas à indústria local: 
+                    </p>
+                    <div class="sim-options">
+                        <button class="sim-btn active" onclick="mostrarImpacto('aco', this)">Reclicar 1 tonelada de aço</button>
+                        <button class="sim-btn" onclick="mostrarImpacto('niobio', this)">Adicionar Nióbio na estrutura</button>
+                        <button class="sim-btn" onclick="mostrarImpacto('energia', this)">Usar Energia Renovável
+                        </button>
+                    </div>
+                </div>
+                <div class="simulator-display">
+                    <div class="metrica-valor" id="metrica-valor">-1.500 kg</div>
+                    <div class="metrica-rotulo" id="metrica-rotulo">de emissões de CO₂</div>
+                    <p class="metric-desc" id="metrica-descricao">A reciclagem evita o processo primário de refino de minério de ferro. Cada tonelada poupa toneladas de gases estufa no ar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 EcoIndústria</p>
+            <div class="footer-logos">
+                <span>Parceria de Desenvolvimento:</span>
+                <strong>CBMM</strong>
+                <strong>ArcelorMittal</strong>
+                <strong>Proz Educação</strong>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
