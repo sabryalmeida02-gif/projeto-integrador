@@ -227,7 +227,7 @@ h1 span {
 }
 
 .simulator-box p {
-    color:  #9ca3af;
+    color:  #2362cf;
     margin-bottom: 24px;
 }
 
@@ -249,7 +249,7 @@ h1 span {
 
 .sim-btn:hover {
     background-color: rgba(255, 255, 255, 0.05);
-    border-color: #9ca3af;
+    border-color: #2461ca;
 }
 
 .active {
@@ -277,7 +277,7 @@ h1 span {
 
 .metrica-rotulo {
     font-size: 14px;
-    color: #f3f4f6;
+    color: #2f60c3;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 16px
@@ -294,7 +294,7 @@ footer {
     padding: 40px 0;
     background-color:#060913;
     font-size: 14px;
-    color: #9ca3af;
+    color: #1d4fa7;
 }    
 
 .footer-content {
